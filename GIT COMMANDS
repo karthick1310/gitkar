@@ -1,0 +1,8 @@
+git add remote origin "repository link"
+git init  (to add .git hidden folder to our local repository)
+git add .  (to add all folders to staging area)
+git commit -m "message" (to send files to local repository)
+git push origin master (to push all file to master branch)
+git pull (to get files from central repository  to working directory)
+git checkout branchname (to work in specific barnch)
+git merge branchname (branch you want to merge)
