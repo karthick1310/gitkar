@@ -1,0 +1,19 @@
+1) select * from employees
+
+2) select name, salary from employees;
+3) select * from employees where salary > 50000;
+4) select * from employees where join_date= 2020;
+5) select * from employees where name like 'A%';
+6) select avg(salary) as average_salary from employees;
+7) select count * as total_employees from employ0)ees;
+8) select max(salary) as highest_salary from employees;
+9) select sum(salary) as total_salary from employees;
+10) select department, count(*) as employee_count from employees  group by department;
+11) insert into employees (name, salary, department, join_date) 
+values ('John ', 60000, 'Marketing', '2024-11-23');
+12) update employees set salary = salary + 10 uwhere department = 'IT';
+
+
+
+
+
